@@ -17,6 +17,7 @@ let weatherStatus = "clear";
 let preparedForLiftOff = true;
 
 // add logic below to verify total number of astronauts for shuttle launch does not exceed 7
+
 if (astronautCount <= 7) {
     console.log("Astronaut count verified.");
 } else { (preparedForLiftOff = false)
@@ -24,6 +25,7 @@ if (astronautCount <= 7) {
 }
 
 // add logic below to verify all astronauts are ready
+
 if (preparedForLiftOff === false) {
 } else if ((astronautStatus === "ready") && (preparedForLiftOff === true)) {
     console.log("Astronaut status ready.");
@@ -32,6 +34,7 @@ if (preparedForLiftOff === false) {
 }
 
 // add logic below to verify the total mass does not exceed the maximum limit of 850000
+
 if (preparedForLiftOff === false) {
 } else if ((totalMassKg <= 850000) && (preparedForLiftOff === true)) {
     console.log("Mass under maximum limit of 850,000.");
