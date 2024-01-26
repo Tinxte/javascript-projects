@@ -45,9 +45,17 @@ function generatePassword(string1, string2) {
   let code = '';
 
   /// Code your Bonus Mission Solution here ///
+string1 = input.question("Insert a string.");
+string2 = input.question("Insert a second string.");
 
+for (i = 0; i < string1.length; i++) {
+let output = '';
+output.push(string1[i])
+ for (j = 0; j < string2.length; j++) {
+output.push(string2[j]);
+ }
+}
 
-  
   return code;
 }
 
@@ -72,10 +80,10 @@ function runProgram() {
     /// TEST PART C HERE ///
   /// UNCOMMENT the remaining commented lines and change the password1 and password2 strings to ensure your code is doing its job ///
 
-  // let password1 = '';
-  // let password2 = '';
-  // console.log("Time to run the password generator so we can update the menu tomorrow.")
-  // console.log(`The new password is: ${generatePassword(password1, password2)}`);
+  let password1 = '';
+  let password2 = '';
+  console.log("Time to run the password generator so we can update the menu tomorrow.")
+  console.log(`The new password is: ${generatePassword(password1, password2)}`);
 }
 
 module.exports = {

@@ -9,4 +9,9 @@
    multi-line
    comments. */
 
+   // Example double slashes for single line comments.
+
+   /* Example using these characters 
+   for multi-line comments. */
+
    console.log("Comments make your code more readable by others.");
