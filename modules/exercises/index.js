@@ -1,6 +1,6 @@
 //Import modules:
-const input = //Import readline-sync.
-const averages = //Import functions from averages.js.
+const input = require("readline-sync"); //Import readline-sync.
+const averages = require("./averages.js"); //Import functions from averages.js.
 const printAll = //Import function from display.js.
 const randomSelect = //Import function from randomSelect.js.
 
