@@ -1,13 +1,14 @@
 //Try adding new properties inside constructor.
 class Astronaut {
-   constructor(name, age, mass){
+   constructor(name, age, mass, food){
      this.name = name;
      this.age = age;
      this.mass = mass;
+     this.faveFood = food;
    }
 }
 
-let fox = new Astronaut('Fox', 7, 12);
+let fox = new Astronaut('Fox', 7, 12, 'Strawberries');
 
 console.log(fox);
 console.log(fox.age, fox.color);
